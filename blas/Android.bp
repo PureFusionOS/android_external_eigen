@@ -50,6 +50,7 @@ cc_library_static {
     vendor_available: true,
     defaults: ["eigen-defaults"],
     host_supported: true,
+    polly: false,
 }
 
 // Build Eigen using API 9 toolchain for RS Support lib.
